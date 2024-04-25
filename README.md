@@ -54,7 +54,7 @@ python train.py --dataset_type='' --gpu=0 --sod_path='/home/dataset/SOD' --backb
 To test using a pre-trained checkpoint, you need to modify the path information in the config_args_raw.json file.
 ```
 python test.py --dataset_type='' --gpu=0 --sod_path='/home/dataset/SOD' --backbone='spikenext-B'
---output_dir='/home/output/EGSTNet-B' --config_file='../config/SOD/EGSTNet_5scale.py' --resume='/home/output/EGSTNet-B'
+--output_dir='/home/output/EGSTNet-B' --config_file='../config/SOD/EGSTNet_5scale.py' --resume='/home/output/EGSTNet-B/checkpoint_best_regular.pth'
 ```
 
 ## Code Acknowledgments
